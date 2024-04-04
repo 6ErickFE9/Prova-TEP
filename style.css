@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+body { font: 12pt Arial; }
+h1, h2, h3 { font-family: 'Reddit Mono', cursive; font-weight: normal;}
+button { font-size: 12pt; padding: 30px; }
