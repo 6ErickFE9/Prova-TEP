@@ -26,6 +26,14 @@ function calc() {
                 break;
         }
 
+        let jogarNovamenteBtn = document.createElement('button');
+        jogarNovamenteBtn.textContent = 'Jogar Novamente';
+        jogarNovamenteBtn.onclick = function() {
+            saida.innerHTML = '';
+            continuar = true;
+        };
+        saida.appendChild(jogarNovamenteBtn);
+
         let resposta = prompt("Deseja jogar novamente? (S/N)").toUpperCase();
         if (resposta !== 'S') {
             continuar = false;
