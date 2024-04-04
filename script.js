@@ -34,7 +34,7 @@ function calc() {
         };
         saida.appendChild(jogarNovamenteBtn);
 
-        let resposta = prompt("Caso deseje realizar outra operação pressione 'S',caso contrario pressione 'N' e verifique o resultado: ").toUpperCase();
+        let resposta = prompt("Caso deseje realizar outra operação digite 'S',caso contrario digite 'N' e verifique o resultado: ").toUpperCase();
         if (resposta !== 'S') {
             continuar = false;
         }
